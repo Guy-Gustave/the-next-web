@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+}
+
+.nav1 {
+	background-color: #222;
+  display: flex;
+	width: 100%;
+	height: 35px;
+}
+
+.left-nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  
+}
+
+.nav-list {
+  width: 100px;
+  font-size: large;
+  
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: #ddd;
+  
+}
+
+/* .Terms {
+  width: 200px;
+} */
+
+.right-nav {
+  padding-left: 300px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.nav2 {
+	display: flex;
+  background-color: #eee;
+  justify-content: space-around;
+	color: #333;
+	width: 100%;
+	height: 50px;
+  position: sticky;
+  }
+
+.nav2 a {
+  color: #888;
+  text-decoration: none;
+}
+
+.nav-right {
+  display: flex;
+  float: right;
+  justify-content: right;
+  flex-end;
+  padding-left: 200px;
+  justify-items: flex-end;
+  align-items: center;
+}
+
+.right-nav button {
+  background-color: aquamarine;
+  width: 80px;
+  height: 25px;
+  margin-left: 25px;
+}
+
+.search-icon img{
+	width: 16px;
+	height: 16px
+}
+
+.tnw-icon img {
+  width: 60%;
+  padding-left: 10px;
+}
+
+.nav3 {
+  background-color: yellow;
+  width: 100%;
+  height: 20px;
+}
