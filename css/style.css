@@ -90,3 +90,49 @@
   width: 100%;
   height: 20px;
 }
+
+.article-1 {
+  margin-top: 0px;
+}
+.art1 {
+  background: url(../ressources/article-img.jpg);
+}
+
+.art2 {
+  background: url(../ressources/article-image2.jpg);
+}
+
+.art3 {
+  background: url(../ressources/article-image3.jpg);
+}
+
+.alt-img{
+  display: flex;
+}
+
+.alt-img img {
+  width: 200px;
+  height: 42px;
+  color: #fff;
+}
+
+.art1, .art2, .art3 {
+  width: 95%;
+  height: 400px;
+} 
+
+.article-2 {
+  display: flex;
+  flex-flow: column;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+}
+
+
