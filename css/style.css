@@ -139,13 +139,22 @@
   width: 35px;
 }
 
+.app-img img {
+  width: 95%;
+}
+
+.right-img img {
+  width: 100px;
+  height: 90px;
+}
+
 .art-foot li img {
   width: 12px;
   height: 10px;
 }
 
 .bottom-context p {
-  text-align: center
+  text-align: center;
 }
 
 .latest-news a {
@@ -175,13 +184,6 @@
   padding-left: 20px;
 }
 
-.header-funding h2 a {
-  color: #f22;
-  text-decoration: none;
-  padding: 20px;
-  line-height: 2em;
-}
-
 .atics-1 a {
   text-decoration: none;
   color: #f22;
@@ -189,13 +191,11 @@
   padding: 10px 5px 5px 0px;
 }
 
-.app-img img {
-  width: 95%;
-}
-
-.right-img img {
-  width: 100px;
-  height: 90px;
+.header-funding h2 a {
+  color: #f22;
+  text-decoration: none;
+  padding: 20px;
+  line-height: 18px;
 }
 
 .art-foot li a {
@@ -346,7 +346,7 @@
 }
 
 .app-img {
-  padding-left:1.5% ;
+  padding-left: 1.5%;
   width: 96%;
   margin-top: 5px;
 }
@@ -385,13 +385,9 @@
   font-size: 24px;
 }
 
-.red-img {
-  margin: 5px 10px;
-}
-
 .article-list {
   padding-left: 25px;
-  line-height: 2em;  
+  line-height: 2em;
 }
 
 .icon-list li {
@@ -421,6 +417,7 @@
 }
 
 .icons {
+  font-size: inherit;
   display: flex;
   flex-direction: column;
   background-color: #1f1d1d;
@@ -489,7 +486,7 @@
     
   }
 
-  .tnw-logo,
+  .tnw-logo, 
   .right {
     display: none;
   }
@@ -521,7 +518,7 @@
     width: 100%;
     height: 45px;
     position: sticky;
-    }
+  }
 
   .nav2 a {
     color: #888;
@@ -544,9 +541,9 @@
     margin-left: 25px;
   }
 
-  .search-icon img{
+  .search-icon img {
     width: 16px;
-    height: 16px
+    height: 16px;
   }
 
   .tnw-icon img {
@@ -597,7 +594,7 @@
   } 
 
   .art1,
-  .art2,
+  .art2, 
   .art3 {
     width: 100%;
   }
@@ -618,7 +615,7 @@
   .alt-img img {
     width: 350px;
     height: 42px;
-    color: #fff;
+     color: #fff;
     filter: invert(100%);
   }
 
@@ -700,12 +697,4 @@
   .contents {
     display: none;
   }
-
-  .grid-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
-  }
-
 }
