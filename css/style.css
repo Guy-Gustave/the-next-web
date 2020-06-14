@@ -582,7 +582,6 @@
     background: linear-gradient(180deg, rgba(204, 35, 43, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-image2.jpg);
     grid-column: 3/4;
     grid-row: 1/2;
-    
   }
 
   .art3 {
@@ -608,16 +607,15 @@
     display: flex;
     margin-top: 10px;
   }
-  width: 350px;
 
   .alt-img img {
     height: 42px;
-     color: #fff;
-     filter: invert(100%);
+    color: #fff;
+    filter: invert(100%);
   }
 
   .alt-img p {
-    padding-left: 200px;
+    padding-left: 350px;
     color: #fff;
   }
 
@@ -656,7 +654,7 @@
   }
 
   .latest-bottom {
-    background-color: rgba(255, 68, 34, .06);
+    background-color: rgba(255, 68, 34, 0.6);
     display: flex;
     justify-content: space-between;
   }
