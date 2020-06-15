@@ -720,7 +720,6 @@
     width: 100%;
     height: 40px;
     position: relative;
-    /* margin-left: 80px; */
   }
 
   .left-nav {
@@ -876,8 +875,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     margin: 20px;
-    
   }
+
   .news1 {
     margin-top: 30px;
     display: flex;
@@ -891,10 +890,8 @@
 
   .grid-3 {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-gap: 15px;
     margin: 30px 18px;
-    
   }
- 
 }
