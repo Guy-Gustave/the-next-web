@@ -37,7 +37,9 @@
   display: flex;
   max-width: 100px;
   border: 1px solid rgb(194, 177, 177);
-  text-align: center;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .search-img,
@@ -470,6 +472,10 @@
     position: relative;
   }
 
+  .nav12{
+    width: 100%;
+  }
+
   .nav1 {
     background-color: #222;
     display: flex;
@@ -707,6 +713,7 @@
   .nav-bar {
     display: flex;
     flex-flow: row;
+    width: 100%;
   }
   .nav12 {
     display: flex;
