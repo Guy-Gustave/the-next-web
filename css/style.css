@@ -463,7 +463,7 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .nav-bar {
     display: flex;
     flex-flow: column;
@@ -473,19 +473,20 @@
   .nav1 {
     background-color: #222;
     display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 40px;
     position: relative;
   }
 
   .left-nav {
-    display: block;
+    display: flex;
     font-size: 15px;
     font-weight: 500;
-    line-height: 32px;
     max-height: 32px;
     position: relative;
     z-index: 2;
+    text-align: center;
   }
 
   .tnw-logo,
@@ -497,7 +498,7 @@
   .left-nav a {
     display: inline-flex;
     justify-items: space-between;
-    padding: 1px 16px;
+    padding: 6px;
   }
 
   .nav1 a {
@@ -506,9 +507,8 @@
   }
 
   .right-nav {
-    padding-left: 300px;
     display: flex;
-    flex-flow: row;
+    flex-flow: row-reverse;
     justify-content: flex-end;
     align-items: center;
   }
@@ -663,7 +663,7 @@
   }
 
   .latest-bottom {
-    background-color: rgba(255, 68, 34, .06);
+    background-color: #fde7e5;
     display: flex;
     justify-content: space-between;
   }
@@ -701,4 +701,200 @@
   .contents {
     display: none;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-bar {
+    display: flex;
+    flex-flow: row;
+  }
+  .nav12 {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .nav1 {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    /* margin-left: 80px; */
+  }
+
+  .left-nav {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    max-height: 32px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .nav-list,
+  .left-nav a {
+    display: inline-flex;
+    justify-items: space-between;
+    padding: 6px;
+  }
+
+  .nav1 a {
+    text-decoration: none;
+    color: #ddd;
+  }
+
+  .right-nav {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav2 {
+    display: flex;
+    background-color: #eee;
+    justify-content: space-around;
+    width: 100%;
+    height: 45px;
+    position: sticky;
+  }
+
+  .nav2 a {
+    color: #888;
+    text-decoration: none;
+  }
+
+  .nav-right {
+    display: flex;
+    float: right;
+    justify-content: right;
+    padding-left: 200px;
+    justify-items: flex-end;
+    align-items: center;
+  }
+
+  .right-nav button {
+    background-color: rgb(72, 206, 161);
+    width: 80px;
+    height: 25px;
+    margin-left: 25px;
+  }
+
+  .search-icon img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .tnw-icon img {
+    width: 60%;
+    padding-left: 10px;
+  }
+
+  .nav3 {
+    background-color: yellow;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+
+  .vid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    width: 98%;
+    height: 500px;
+    padding: auto;
+    margin-top: 32px;
+  }
+
+  .art1 {
+    background: linear-gradient(180deg, rgba(204, 35, 43, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-img.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    position: relative;
+    height: 100%;
+  }
+
+  .art2 {
+    background: linear-gradient(180deg, rgba(204, 35, 43, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-image2.jpg);
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 100%;
+  }
+
+  .art3 {
+    background: linear-gradient(180deg, rgba(20, 35, 243, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-image3.jpg);
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 100%;
+  }
+
+  .art1,
+  .art2,
+  .art3 {
+    width: 100%;
+  }
+
+  .art-contents {
+    display: flex;
+    flex-flow: column;
+    color: #fff;
+    padding: 5px 15px;
+  }
+
+  .alt-img {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .alt-img img {
+    height: 42px;
+    color: #fff;
+    filter: invert(100%);
+  }
+
+  .alt-img p {
+    padding-left: 350px;
+    color: #fff;
+  }
+
+  .grid-1,
+  .news {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 20px;
+    
+  }
+  .news1 {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .grid-img img {
+    width: 90%;
+    height: 150px;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 15px;
+    margin: 30px 18px;
+    
+  }
+ 
 }
