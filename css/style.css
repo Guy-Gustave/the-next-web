@@ -17,6 +17,10 @@
   display: none;
 }
 
+.tablet {
+  display: none;
+}
+
 .align {
   align-items: center;
   justify-content: center;
@@ -465,9 +469,19 @@
 
 @media only screen and (min-width: 768px) {
   .nav-bar {
+    display: none;
+  }
+
+  .tablet {
     display: flex;
-    flex-flow: column;
-    position: relative;
+    flex-direction: row;
+    width: 99%;
+  }
+
+  .nav12 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .nav1 {
@@ -475,8 +489,9 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 40px;
+    height: 35px;
     position: relative;
+    align-items: center;
   }
 
   .left-nav {
@@ -489,6 +504,172 @@
     text-align: center;
   }
 
+  .right-nav {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav12 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1px 5px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .tnw-logo {
+    height: 80px;
+    width: 120px;
+  }
+
+  .nav2 {
+    display: flex;
+    background-color: #ccc;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    position: sticky;
+  }
+
+  .left-nav a {
+    font-size: 14px;
+  }
+
+  .nav-list,
+  .left-nav a {
+    display: inline-flex;
+    justify-items: space-between;
+    padding: 6px;
+  }
+
+  .nav-right {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .search-icon img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .nav13 {
+    background-color: yellow;
+    width: 99%;
+    height: 30px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .nav13 h6 {
+    padding: 5px;
+  }
+
+  .vid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    width: 98%;
+    height: 500px;
+    padding: auto;
+    margin-top: 3px;
+  }
+
+  .art1 {
+    background: linear-gradient(180deg, rgba(204, 35, 43, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-img.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    position: relative;
+    height: 100%;
+  }
+
+  .art2 {
+    background: linear-gradient(180deg, rgba(204, 35, 43, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-image2.jpg);
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 100%;
+  }
+
+  .art3 {
+    background: linear-gradient(180deg, rgba(20, 35, 243, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-image3.jpg);
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 100%;
+  }
+
+  .art1,
+  .art2,
+  .art3 {
+    width: 100%;
+  }
+
+  .art-contents {
+    display: flex;
+    flex-flow: column;
+    color: #fff;
+    padding: 5px 15px;
+  }
+
+  .alt-img {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .alt-img img {
+    height: 42px;
+    color: #fff;
+    filter: invert(100%);
+  }
+
+  .alt-img p {
+    padding-left: 350px;
+    color: #fff;
+  }
+
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 13px;
+  }
+
+  .gr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+  }
+
+  .news1 {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .grid-img img {
+    width: 100%;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav-bar {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+  }
+
+  .tablet,
   .tnw-logo,
   .right {
     display: none;
@@ -556,77 +737,11 @@
   .nav3 {
     background-color: yellow;
     width: 100%;
-    height: 30px;
+    height: 25px;
     position: relative;
-    top: 2rem;
-    margin-top: -35px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-start;
     padding-left: 20px;
   }
 
-  .vid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 5px;
-    width: 98%;
-    height: 500px;
-    padding: auto;
-    margin-top: 32px;
-  }
-
-  .art1 {
-    background: linear-gradient(180deg, rgba(204, 35, 43, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-img.jpg);
-    grid-column: 1/3;
-    grid-row: 1/3;
-    position: relative;
-    height: 100%;
-  }
-
-  .art2 {
-    background: linear-gradient(180deg, rgba(204, 35, 43, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-image2.jpg);
-    grid-column: 3/4;
-    grid-row: 1/2;
-    height: 100%;
-  }
-
-  .art3 {
-    background: linear-gradient(180deg, rgba(20, 35, 243, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/article-image3.jpg);
-    grid-column: 3/4;
-    grid-row: 2/3;
-    height: 100%;
-  }
-
-  .art1,
-  .art2,
-  .art3 {
-    width: 100%;
-  }
-
-  .art-contents {
-    display: flex;
-    flex-flow: column;
-    color: #fff;
-    padding: 5px 15px;
-  }
-
-  .alt-img {
-    display: flex;
-    margin-top: 10px;
-  }
-
-  .alt-img img {
-    height: 42px;
-    color: #fff;
-    filter: invert(100%);
-  }
-
-  .alt-img p {
-    padding-left: 350px;
-    color: #fff;
-  }
 
   .grid-1 {
     display: grid;
