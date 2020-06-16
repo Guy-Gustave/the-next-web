@@ -9,7 +9,7 @@
   position: fixed;
   top: 0;
   background-color: #eee;
-  z-index: 1;
+  z-index: 2;
 }
 
 .tablet,
@@ -68,6 +68,7 @@
   margin-top: 50px;
   align-items: center;
   justify-content: center;
+  z-index: 3;
 }
 
 .vid {
@@ -429,6 +430,8 @@
 .icons {
   font-size: inherit;
   display: flex;
+  flex-shrink: initial;
+  flex-wrap: wrap;
   flex-direction: column;
   background-color: #1f1d1d;
   height: 160px;
@@ -437,7 +440,7 @@
 .icon-list {
   display: flex;
   flex-flow: row;
-  padding: 5px 10px;
+  padding: 5px 5px;
 }
 
 .icon-list li a img {
@@ -578,7 +581,6 @@
     grid-gap: 5px;
     width: 98%;
     height: 500px;
-    padding: auto;
     margin-top: 3px;
   }
 
