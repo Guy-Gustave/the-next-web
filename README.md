@@ -6,11 +6,12 @@ This is a clone application of New Next-web.
 
 <br>
 <br>
-<img src="ressources/screen 1.png" width="300"> 
-<img src="ressources/screen2.png" width="300"> 
-<img src="ressources/screen3.png" width="300"> 
-<img src="ressources/screen4.png" width="300">
-<img src="ressources/screen5.png" width="300">
+<img src="ressources/large1.png" width="300"> 
+<img src="ressources/large2.png" width="300"> 
+<img src="ressources/medium1.png" width="300"> 
+<img src="ressources/medium2.png" width="300">
+<img src="ressources/small1.png" width="300">
+<img src="ressources/small2.png" width="300">
 <br>
 
 In this project, we aimed at producing a close replica of the New-web news page, while focusing on how to use responsive in CSS. That means to make page that may be displayed on mobile same on desktop or tablet
