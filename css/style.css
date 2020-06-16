@@ -12,12 +12,9 @@
   z-index: 1;
 }
 
+.tablet,
 .nav1,
 .nav2 {
-  display: none;
-}
-
-.tablet {
   display: none;
 }
 
@@ -474,7 +471,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .nav-bar {
+  .nav-bar,
+  .right {
     display: none;
   }
 
@@ -521,10 +519,6 @@
     color: #fff;
     text-decoration: none;
     padding: 1px 5px;
-  }
-
-  .right {
-    display: none;
   }
 
   .tnw-logo {
