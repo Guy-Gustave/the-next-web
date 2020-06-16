@@ -168,6 +168,7 @@
   color: red;
   align-items: center;
   justify-content: space-between;
+  width: 95%;
 }
 
 .fund-cap,
@@ -195,6 +196,10 @@
   color: #f22;
   font-size: x-large;
   padding: 10px 5px 5px 0;
+}
+
+.atics-1 a h3 {
+  margin-left: 15px;
 }
 
 .header-funding h2 a {
@@ -643,23 +648,52 @@
   .gr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 20px;
+    margin: 20px 30px;
+  }
+
+  .funding-grid {
+    width: 97%;
   }
 
   .grid-3 {
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 30px;
+    max-width: 97%;
+  }
+
+  .app-img {
+    padding-left: 1.5%;
+    width: 96%;
+    margin: 5px 15px;
+  }
+
+  .latest-bottom {
+    background-color: #fde7e5;
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+    margin-left: 20px;
   }
 
   .news1 {
     display: flex;
     flex-flow: column;
+    width: 96%;
+  }
+
+  .grid-img {
+    width: 92%;
+    margin-left: 10px;
   }
 
   .grid-img img {
-    width: 100%;
+    width: 98%;
     height: 120px;
+  }
+
+  .contents {
+    display: none;
   }
 
   .latest-news a p {
@@ -717,6 +751,16 @@
     text-decoration: none;
   }
 
+  .left-nav {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    max-height: 32px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+
   .nav-right {
     display: flex;
     float: right;
@@ -757,11 +801,17 @@
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
     margin: 10px 30px;
+    width: 96%;
   }
 
   .news1 {
     display: flex;
     flex-flow: column;
+    width: 95%;
+  }
+
+  .grid-img {
+    width: 95%;
   }
 
   .grid-img img {
@@ -772,7 +822,7 @@
   .news {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 30px;
+    margin: 30px 50px;
     padding-left: 30px;
   }
 
@@ -784,11 +834,21 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 15px;
-    margin: 40px 50px;
+    width: 96%;
+    margin: auto;
+    padding-left: 20px;
+  }
+
+  .atics-1 {
+    width: 95%;
   }
 
   .latest-news {
     margin: 10px 30px;
+  }
+
+  .article-list {
+    width: 93%;
   }
 
   .lists li {
@@ -799,6 +859,7 @@
     background-color: #fde7e5;
     display: flex;
     justify-content: space-between;
+    width: 91%;
   }
 
   .lateste {
