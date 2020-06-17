@@ -406,6 +406,11 @@
   background-color: #333;
 }
 
+footer {
+  max-width: 100%;
+  display: flex;
+}
+
 .footer-links li {
   display: inline-flex;
   justify-content: space-between;
@@ -432,6 +437,7 @@
 .icon-list {
   display: flex;
   flex-flow: row;
+  flex-wrap: wrap;
   padding: 5px 5px;
 }
 
@@ -465,7 +471,7 @@
 .paragraph {
   color: #eee;
   font-size: 14px;
-  text-align: center;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 768px) {
