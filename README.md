@@ -23,7 +23,7 @@ In this project, we aimed at producing a close replica of the New-web news page,
   * W3C Validator
 
 ## Live demo
-https://raw.githack.com/Guy-Gustave/the-next-web/feature-branch/index.html 
+[click here](https://raw.githack.com/Guy-Gustave/the-next-web/master/index.html)
 
 ## Getting started
 **For this project, we tried our best to recreate the next-web page. The main aim is to ensure the elements get placed and styled roughly the same way using responsive and media qwueries as the Next web page.**
