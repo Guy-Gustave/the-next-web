@@ -145,6 +145,7 @@
 .right-img img {
   width: 100px;
   height: 90px;
+  object-fit: cover;
 }
 
 .art-foot li img {
@@ -697,6 +698,7 @@ footer {
   .grid-img img {
     width: 98%;
     height: 120px;
+    object-fit: cover;
   }
 
   .contents {
